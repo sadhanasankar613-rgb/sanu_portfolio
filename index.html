@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="S. Sadhana - Personal Portfolio. B.Tech Artificial Intelligence and Data Science Student specializing in Python, Machine Learning, and Cyber Security.">
+    <meta name="keywords" content="Sadhana, Portfolio, AI, Data Science, Python, Machine Learning, Cyber Security, Student Portfolio">
+    <meta name="author" content="S. Sadhana">
+    <title>S. Sadhana | AI & Data Science Portfolio</title>
+    
+    <!-- Google Font Poppins & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Custom Style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Professional AI Background Animation Canvas -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Elegant Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <div class="loader-text">S. SADHANA</div>
+        </div>
+    </div>
+
+    <!-- Sticky Navigation Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#home" class="logo" id="nav-logo">
+                S. Sadhana<span class="logo-dot"></span>
+            </a>
+            
+            <nav class="nav-links" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#project" class="nav-link">Project</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle dark/light theme">
+                    <i class="fa-solid fa-moon"></i>
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+                <button class="hamburger" id="menu-toggle" aria-label="Open navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+        <div class="container hero-grid">
+            <div class="hero-content reveal">
+                <div class="hero-tag">
+                    <i class="fa-solid fa-bolt"></i> Welcome to my Space
+                </div>
+                <h1 class="hero-name">S. <span class="hero-name-gradient">SADHANA</span></h1>
+                <div class="hero-role">
+                    <span>I am a </span>
+                    <span class="typing-text" id="typed-text"></span>
+                </div>
+                <p class="hero-desc">
+                    Enthusiastic and dedicated Artificial Intelligence and Data Science student passionate about Python Programming, Machine Learning, Artificial Intelligence, Data Science and Cyber Security.
+                </p>
+                <div class="hero-cta">
+                    <a href="#" class="btn btn-primary" id="btn-download-resume">
+                        <i class="fa-solid fa-download"></i> Download Resume
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fa-solid fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual reveal">
+                <!-- Floating Icons represent Tech Stack -->
+                <div class="floating-icon icon-python" title="Python"><i class="fa-brands fa-python"></i></div>
+                <div class="floating-icon icon-brain" title="Machine Learning"><i class="fa-solid fa-brain"></i></div>
+                <div class="floating-icon icon-code" title="Data Science"><i class="fa-solid fa-chart-line"></i></div>
+                <div class="floating-icon icon-shield" title="Cyber Security"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="floating-icon icon-database" title="SQL"><i class="fa-solid fa-database"></i></div>
+                
+                <div class="hero-profile-container">
+                    <img src="profile.png" alt="S. Sadhana" class="hero-profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Overview</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-cards-stack reveal">
+                    <div class="glass-card">
+                        <h3 class="about-card-title">
+                            <i class="fa-solid fa-user-graduate"></i> Brief Profile
+                        </h3>
+                        <p class="about-text">
+                            Enthusiastic and dedicated B.Tech Artificial Intelligence and Data Science student with a strong interest in Python programming, Data Science, Machine Learning, Artificial Intelligence and Cyber Security. Possess excellent communication, analytical and problem-solving skills with a passion for continuous learning and innovation. Seeking opportunities to apply technical knowledge, gain practical experience and contribute effectively to real-world AI projects.
+                        </p>
+                    </div>
+                    
+                    <div class="glass-card">
+                        <h3 class="about-card-title">
+                            <i class="fa-solid fa-bullseye"></i> Career Objective
+                        </h3>
+                        <p class="about-text">
+                            Motivated and enthusiastic B.Tech Artificial Intelligence and Data Science student seeking internship and learning opportunities to enhance technical skills in Artificial Intelligence, Data Science, Machine Learning and Cyber Security. Eager to contribute to innovative projects while gaining practical industry experience.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="about-side reveal">
+                    <div class="glass-card">
+                        <h3 class="sidebar-title">Soft Skills</h3>
+                        <div class="tag-list">
+                            <span class="tag-item"><i class="fa-solid fa-comments"></i> Communication</span>
+                            <span class="tag-item"><i class="fa-solid fa-users"></i> Teamwork</span>
+                            <span class="tag-item"><i class="fa-solid fa-lightbulb"></i> Problem Solving</span>
+                            <span class="tag-item"><i class="fa-solid fa-clock"></i> Time Management</span>
+                            <span class="tag-item"><i class="fa-solid fa-arrows-spin"></i> Adaptability</span>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card">
+                        <h3 class="sidebar-title">Languages</h3>
+                        <div class="lang-list">
+                            <div class="lang-item">
+                                <div class="lang-info">
+                                    <i class="fa-solid fa-language" style="color: var(--color-accent);"></i>
+                                    <span class="lang-name">Tamil</span>
+                                </div>
+                                <span class="lang-fluency">Native</span>
+                            </div>
+                            <div class="lang-item">
+                                <div class="lang-info">
+                                    <i class="fa-solid fa-language" style="color: var(--color-primary);"></i>
+                                    <span class="lang-name">English</span>
+                                </div>
+                                <span class="lang-fluency">Professional</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">My Path</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+            
+            <div class="education-timeline">
+                <div class="education-item reveal">
+                    <div class="education-marker">
+                        <i class="fa-solid fa-university"></i>
+                    </div>
+                    <div class="glass-card education-card">
+                        <span class="education-date">2024 - 2028</span>
+                        <h3 class="education-title">B.Tech – Artificial Intelligence and Data Science</h3>
+                        <p class="education-inst">Krishnasamy College of Engineering and Technology</p>
+                        <div class="education-meta">
+                            <span><i class="fa-solid fa-award"></i> Affiliated to Anna University</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Core Competencies</span>
+                <h2 class="section-title">Technical Skills</h2>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Skill 1 -->
+                <div class="glass-card skill-card reveal">
+                    <div class="skill-header">
+                        <div class="skill-title-group">
+                            <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <span class="skill-pct">85%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-percent="85%"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 2 -->
+                <div class="glass-card skill-card reveal">
+                    <div class="skill-header">
+                        <div class="skill-title-group">
+                            <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                            <span class="skill-name">SQL (Basic)</span>
+                        </div>
+                        <span class="skill-pct">70%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-percent="70%"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 3 -->
+                <div class="glass-card skill-card reveal">
+                    <div class="skill-header">
+                        <div class="skill-title-group">
+                            <div class="skill-icon"><i class="fa-solid fa-chart-bar"></i></div>
+                            <span class="skill-name">Pandas</span>
+                        </div>
+                        <span class="skill-pct">75%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-percent="75%"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 4 -->
+                <div class="glass-card skill-card reveal">
+                    <div class="skill-header">
+                        <div class="skill-title-group">
+                            <div class="skill-icon"><i class="fa-solid fa-calculator"></i></div>
+                            <span class="skill-name">NumPy</span>
+                        </div>
+                        <span class="skill-pct">75%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-percent="75%"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 5 -->
+                <div class="glass-card skill-card reveal">
+                    <div class="skill-header">
+                        <div class="skill-title-group">
+                            <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+                            <span class="skill-name">Machine Learning Fundamentals</span>
+                        </div>
+                        <span class="skill-pct">65%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-percent="65%"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 6 -->
+                <div class="glass-card skill-card reveal">
+                    <div class="skill-header">
+                        <div class="skill-title-group">
+                            <div class="skill-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                            <span class="skill-name">Cyber Security Fundamentals</span>
+                        </div>
+                        <span class="skill-pct">60%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-percent="60%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 7 -->
+                <div class="glass-card skill-card reveal">
+                    <div class="skill-header">
+                        <div class="skill-title-group">
+                            <div class="skill-icon"><i class="fa-solid fa-book-open"></i></div>
+                            <span class="skill-name">Jupyter Notebook</span>
+                        </div>
+                        <span class="skill-pct">80%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-percent="80%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 8 -->
+                <div class="glass-card skill-card reveal">
+                    <div class="skill-header">
+                        <div class="skill-title-group">
+                            <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+                            <span class="skill-name">VS Code</span>
+                        </div>
+                        <span class="skill-pct">80%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-percent="80%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 9 -->
+                <div class="glass-card skill-card reveal">
+                    <div class="skill-header">
+                        <div class="skill-title-group">
+                            <div class="skill-icon"><i class="fa-solid fa-file-word"></i></div>
+                            <span class="skill-name">Microsoft Word</span>
+                        </div>
+                        <span class="skill-pct">85%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-percent="85%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 10 -->
+                <div class="glass-card skill-card reveal">
+                    <div class="skill-header">
+                        <div class="skill-title-group">
+                            <div class="skill-icon"><i class="fa-solid fa-file-excel"></i></div>
+                            <span class="skill-name">Microsoft Excel</span>
+                        </div>
+                        <span class="skill-pct">80%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-percent="80%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 11 -->
+                <div class="glass-card skill-card reveal">
+                    <div class="skill-header">
+                        <div class="skill-title-group">
+                            <div class="skill-icon"><i class="fa-solid fa-file-powerpoint"></i></div>
+                            <span class="skill-name">Microsoft PowerPoint</span>
+                        </div>
+                        <span class="skill-pct">85%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-percent="85%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section" id="certifications">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Credentials</span>
+                <h2 class="section-title">Certifications</h2>
+            </div>
+            
+            <div class="certifications-grid">
+                <!-- Cert 1 -->
+                <div class="glass-card cert-card reveal">
+                    <div class="cert-badge"><i class="fa-brands fa-python"></i></div>
+                    <div class="cert-info">
+                        <h3 class="cert-name">Python for Beginners</h3>
+                        <p class="cert-authority">Professional Learning Center</p>
+                    </div>
+                </div>
+                
+                <!-- Cert 2 -->
+                <div class="glass-card cert-card reveal">
+                    <div class="cert-badge"><i class="fa-solid fa-keyboard"></i></div>
+                    <div class="cert-info">
+                        <h3 class="cert-name">English Typewriting Higher Grade</h3>
+                        <p class="cert-authority">Government Technical Education</p>
+                    </div>
+                </div>
+                
+                <!-- Cert 3 -->
+                <div class="glass-card cert-card reveal">
+                    <div class="cert-badge"><i class="fa-solid fa-keyboard"></i></div>
+                    <div class="cert-info">
+                        <h3 class="cert-name">English Typewriting Lower Grade</h3>
+                        <p class="cert-authority">Government Technical Education</p>
+                    </div>
+                </div>
+                
+                <!-- Cert 4 -->
+                <div class="glass-card cert-card reveal">
+                    <div class="cert-badge"><i class="fa-solid fa-keyboard"></i></div>
+                    <div class="cert-info">
+                        <h3 class="cert-name">Tamil Typewriting Lower Grade</h3>
+                        <p class="cert-authority">Government Technical Education</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section class="section" id="project">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">My Work</span>
+                <h2 class="section-title">Featured Project</h2>
+            </div>
+            
+            <div class="project-container">
+                <div class="glass-card project-card reveal">
+                    <div class="project-visual">
+                        <div class="project-visual-icon"><i class="fa-solid fa-chart-pie"></i></div>
+                        <h3 class="project-visual-title">Data Analytics Case</h3>
+                        <span class="project-visual-tag">Python & Visualization</span>
+                    </div>
+                    
+                    <div class="project-details">
+                        <div class="project-meta">
+                            <span class="project-label">Data Science Project</span>
+                        </div>
+                        <h3 class="project-title">Student Performance Analysis</h3>
+                        <p class="project-desc">
+                            An analytical program designed to pre-process, filter, clean, and analyze student academic data, transforming raw spreadsheets into actionable intelligence.
+                        </p>
+                        <div class="project-bullets">
+                            <div class="project-bullet">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Analyzed student performance data using Python.</span>
+                            </div>
+                            <div class="project-bullet">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Performed data preprocessing and visualization.</span>
+                            </div>
+                            <div class="project-bullet">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Generated meaningful insights using charts and graphs.</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Seaborn</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="section" id="achievements">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Key Milestones</span>
+                <h2 class="section-title">Achievements</h2>
+            </div>
+            
+            <div class="achievements-grid">
+                <!-- Achievement 1 -->
+                <div class="glass-card achievement-card reveal">
+                    <div class="ach-icon-wrapper">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+                    <h3 class="achievement-name">Participated in Technical Events</h3>
+                </div>
+                
+                <!-- Achievement 2 -->
+                <div class="glass-card achievement-card reveal">
+                    <div class="ach-icon-wrapper">
+                        <i class="fa-solid fa-users-rectangle"></i>
+                    </div>
+                    <h3 class="achievement-name">Workshops</h3>
+                </div>
+                
+                <!-- Achievement 3 -->
+                <div class="glass-card achievement-card reveal">
+                    <div class="ach-icon-wrapper">
+                        <i class="fa-solid fa-microphone-lines"></i>
+                    </div>
+                    <h3 class="achievement-name">Seminars</h3>
+                </div>
+                
+                <!-- Achievement 4 -->
+                <div class="glass-card achievement-card reveal">
+                    <div class="ach-icon-wrapper">
+                        <i class="fa-solid fa-ranking-star"></i>
+                    </div>
+                    <h3 class="achievement-name">College Activities</h3>
+                </div>
+                
+                <!-- Achievement 5 -->
+                <div class="glass-card achievement-card reveal">
+                    <div class="ach-icon-wrapper">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="achievement-name">Continuous Technical Learning</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Contact</h2>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info-side reveal">
+                    <div class="glass-card contact-card-box">
+                        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <div class="contact-label">Phone</div>
+                            <div class="contact-value">6374757099</div>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card contact-card-box">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <div class="contact-label">Email</div>
+                            <div class="contact-value">sadhanasankar11@gmail.com</div>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card contact-card-box">
+                        <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                        <div>
+                            <div class="contact-label">LinkedIn</div>
+                            <div class="contact-value">linkedin.com/in/sadhana</div>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card contact-card-box" style="flex-direction: column; align-items: flex-start; gap: 0.75rem;">
+                        <div class="contact-label">Social Platforms</div>
+                        <div class="social-links">
+                            <a href="https://linkedin.com/in/sadhana" target="_blank" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="mailto:sadhanasankar11@gmail.com" class="social-btn" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="tel:+916374757099" class="social-btn" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="glass-card reveal">
+                    <form class="contact-form" id="portfolio-contact-form">
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="form-name" class="form-label">Full Name</label>
+                                <input type="text" id="form-name" class="form-input" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email" class="form-label">Email Address</label>
+                                <input type="email" id="form-email" class="form-input" placeholder="name@domain.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-subject" class="form-label">Subject</label>
+                            <input type="text" id="form-subject" class="form-input" placeholder="Inquiry Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-message" class="form-label">Your Message</label>
+                            <textarea id="form-message" class="form-input" placeholder="Hi Sadhana, I'd like to talk about..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="align-self: flex-start;">
+                            <i class="fa-solid fa-paper-plane"></i> Send Message
+                        </button>
+                        
+                        <div class="form-feedback" id="feedback-msg"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                Designed with <span class="footer-heart">❤️</span> by S. Sadhana
+            </p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Scroll back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom Logic Script -->
+    <script src="script.js"></script>
+</body>
+</html>
